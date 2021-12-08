@@ -1,18 +1,91 @@
 @import url(reset.css);
 
+
+
 body{
     background-color: hsl(208, 57%, 92%);
+    font-family: 'Raleway', sans-serif;
+    color:	hsl(175, 16%, 31%);
 }
 
 header{
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 203px 1fr;
     margin-top: 50px;
     padding-left: 150px;
     padding-right: 150px;
+    align-items: center;
 }
 
 header > div{
     border: 1px solid white;
+}
+
+h1, .pay-off{
+    padding-left: 25px;
+    color: 	hsl(29, 88%, 80%);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 406px 1fr;
+    border: 0px solid white;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+
+aside{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr;
+    border: 0px solid white;
+    background-color: hsl(255, 100%, 100%);
+    padding: 25px;
+    border:5px solid white;
+    border-radius: 10px 0px 0 10px;
+    height: 100vh;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+main{
+    border: 0px solid white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr;
+    border: 0px solid white;
+    background-color: hsl(176, 18%, 69%);
+    padding: 25px;
+    border:5px solid white;
+    border-radius: 0px 10px 10px 0px;
+    height: 100vh;
+}
+
+footer{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 406px 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: hsl(175, 16%, 31%);
+    
+}
+
+.footer-container{
+    background-color: hsl(175, 16%, 31%);
 }
