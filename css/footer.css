@@ -1,0 +1,13 @@
+footer{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 406px 1fr;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: hsl(175, 16%, 31%);
+    
+}
+
+.footer-container{
+    background-color: hsl(175, 16%, 31%);
+}
