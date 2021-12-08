@@ -1,0 +1,18 @@
+@import url(reset.css);
+
+body{
+    background-color: hsl(208, 57%, 92%);
+}
+
+header{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+header > div{
+    border: 1px solid white;
+}
